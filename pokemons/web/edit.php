@@ -11,7 +11,9 @@ if (!isset($_SESSION['username']) || $verificationAdmin != ($_SESSION['usertype'
   header("Location: list.php");
   exit;
 }
-
+/*
+ lets try this one
+ */
 $select = $conn->prepare("SELECT pokemon.name, pokemon.hp, pokemon.number, pokemon.description, pokemon.ability, pokemon.img
 FROM pokemon
 WHERE pokemon.id = ?");
