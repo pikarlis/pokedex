@@ -19,7 +19,7 @@ $url = $_SERVER['REQUEST_URI'];
 ?>
     <!doctype html>
     <html lang="en">
-
+    gonna do some stuff
     <head>
         <title>Title</title>
         <!-- Required meta tags -->
