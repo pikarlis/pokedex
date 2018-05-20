@@ -4,6 +4,10 @@ $conn = new mysqli('localhost', 'root', '', 'pokedex');
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
+/*
+  Yoo some random text here
+  */
+
 
 include "config.php";
 $verificationUser = 'u';
