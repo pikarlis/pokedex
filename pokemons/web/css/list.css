@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#particles-js {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #343a40;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #111;
+  color: white;
+  text-decoration: none;
+  transition: 700ms;
+}
+
+.active {
+  background-color: #2a4d96;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+img {
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+div a {
+  color: black;
+}
+
+div a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#search_container {
+  float: right;
+  margin-right: 16px;
+  margin-top: 8px;
+  font-size: 17px;
+}
+
+#search {
+  float: left;
+  padding: 6px;
+  border: none;
+}
+
+#pokemonSearch {
+  float: right;
+  background-color: #2a4d96;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  transition: 700ms;
+}
+
+#pokemonSearch:hover {
+  background-color: #3b6dd8;
+}
+
+a>button {
+  margin-bottom: 0.5rem;
+}
+
+.dropbtn {
+  background-color: #2a4d96;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  min-width: 89.96px;
+}
+
+.dropdown {
+  position: relative;
+  float: right;
+  min-width: 89.96px;
+  transition: 700ms;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 89.96px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #3b6dd8;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3b6dd8;
+}
+
+.container {
+  margin-top: 5vh;
+}
+
+@media screen and (max-width: 700px) {
+  #search_container {
+    float: none;
+    margin-right: 0;
+    margin-top: 0;
+  }
+  nav a, #search, #search_container #pokemonSearch {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  nav #search {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow: visible;
+  }
+  .dropdown {
+    position: relative;
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .dropbtn {
+    background-color: #223d77;
+    color: white;
+    display: block;
+    float: none;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-height: 30vh;
+    overflow: scroll;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+}

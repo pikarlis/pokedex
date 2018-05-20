@@ -1,0 +1,20 @@
+2absol = dark 2
+3aggron = steel, rock 17,16
+4snorunt = ice 12
+5blayiken = fire fighting 7,6
+6mamoswine = ice ground 12,11
+7arceus= normal 13
+8lucario = fighting steel 6,17
+9darkrai = dark 2
+10helioptuile = electric normal 13,4
+11stunfisk = ground electric , 11,4
+12tepu funu = water fairy , 18,5
+13tzranium = rock dragon , 16,3
+14guyylord = dark dragon , 2,3
+15oranguru 13,15
+16tangrowth = grass 10
+17duosion = psychic 15
+18klang = steel 17
+19sabeleye = dark ghost 2,9
+20gardevoir = psychic fairy 15,5
+21aegislash = steel ghost, 17,9
